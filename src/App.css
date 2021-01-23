@@ -20,6 +20,16 @@
   color: white !important;
 }
 
+.image-container{
+  margin-left: 25%
+} 
+
+.corpPics{
+  margin: 5% 10% 5% 10%;
+  width: 80%;
+  align-items: center;
+}
+
 .Header{
   font-size: 36pt;
   /* background-color: transparent !important; */

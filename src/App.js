@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/Home'
-import Corporate from './pages/Corporate'
+import Corp from './pages/Corp'
+import Fashion from './pages/Fashion'
 import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 
 
@@ -14,8 +15,11 @@ function App() {
         <Route exact path="/" component={Home}>
             <Home />
         </Route>
-        <Route exact path="/" component={Corporate}>
-            <Corporate />
+        <Route exact path="/corp" component={Corp}>
+            <Corp />
+        </Route>
+        <Route exact path="/fashion" component={Fashion}>
+            <Fashion />
         </Route>
       </Switch>
     </Router>
