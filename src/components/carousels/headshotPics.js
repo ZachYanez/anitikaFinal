@@ -15,7 +15,7 @@ export default function headshot() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={headshot1}
+      src={headshot2}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -26,7 +26,7 @@ export default function headshot() {
    <Carousel.Item>
     <img
       className="d-block w-100"
-      src={headshot2}
+      src={headshot1}
       alt="Third slide"
     />
 
