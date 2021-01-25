@@ -2,7 +2,7 @@
   "name": "abyonausar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zachyanez.github.io/abyonausar",
+  "homepage": "https://zachyanez.github.io/abyonausar/",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZachYanez/abyonausar"
@@ -13,7 +13,6 @@
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.6.0",
     "react": "^17.0.1",
-    "gh-pages": "^3.1.0",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
