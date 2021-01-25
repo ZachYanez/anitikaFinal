@@ -15,10 +15,14 @@ import fashion10 from '../../assets/fashion/IMG_3936.jpg'
 import fashion11 from '../../assets/fashion/IMG_4276.jpg'
 
 
-
-
-
-
+import Abyon1 from '../../assets/fashion/Abyon1.jpg'
+import Abyon2 from '../../assets/fashion/Abyon2.jpg'
+import Abyon3 from '../../assets/fashion/Abyon3.jpg'
+import Abyon4 from '../../assets/fashion/Abyon4.jpg'
+import Abyon5 from '../../assets/fashion/Abyon5.jpg'
+import Abyon6 from '../../assets/fashion/Abyon6.jpg'
+import Abyon7 from '../../assets/fashion/Abyon7.jpg'
+import Abyon8 from '../../assets/fashion/Abyon8.jpg'
 
 export default function fashion() {
     return (
@@ -100,6 +104,113 @@ export default function fashion() {
     </Carousel.Caption>
   </Carousel.Item> 
   </Carousel>
+
+<br/>
+
+<Carousel 
+            className="image-container mt-3 w-50">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon1}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item>
+   <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon2}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item> 
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon4}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item>
+
+<Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon5}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item> 
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon6}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item> 
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon7}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Abyon8}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3></h3>
+      <p></p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  </Carousel>
+
+
+
+
+
   <br/>
 
   <Carousel 

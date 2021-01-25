@@ -10,11 +10,11 @@ export default function Fashion() {
         <div>
         <div className="background">
              <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="dark">
-        <Navbar.Brand href="#home">Abyon Ausar</Navbar.Brand>
+        <Navbar.Brand href="#/">Abyon Ausar</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#/">Home</Nav.Link>
             <NavDropdown title="Resumes" id="collasible-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://docs.google.com/document/d/1R3vjehY55V9Kma0rHOP_HlB2u69No3oDtBN66UQ9VdA/edit">Actor Resume</NavDropdown.Item>
             </NavDropdown>
@@ -26,8 +26,9 @@ export default function Fashion() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">Acclaim Talent</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#Corp">Corporate</Nav.Link>
-            <Nav.Link href="#Fashion">Fashion</Nav.Link>
-            <Nav.Link href="#Fitness Modeling">Fitness Modeling</Nav.Link>
+            <Nav.Link className="staticLink" href="#Fashion">Fashion</Nav.Link>
+            <Nav.Link href="#Fitness">Fitness Modeling</Nav.Link>
+            <Nav.Link href="#Videos">Videos</Nav.Link>
             <Nav.Link href="#Headshots">Headshots</Nav.Link>
             <Nav.Link href="#Published">Published Print Content</Nav.Link>
           </Nav>
@@ -40,11 +41,11 @@ export default function Fashion() {
         <FashionPics/>
       </div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">A</Navbar.Brand>
+        <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#/">Home</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="mailto:abyon09@gmail.com">Email</Nav.Link>
