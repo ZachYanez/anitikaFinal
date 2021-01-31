@@ -39,6 +39,9 @@ export default function Home() {
       <div className="content-area">
       <Image className="w-75" src={Abyon} rounded />
       </div>
+      <div className="content-area">
+
+      </div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -39,6 +39,8 @@ export default function Headshot() {
       <div className="content-area">
         <Headshots/>
       </div>
+      <div className="content-area"></div>
+      <div className="extra-content"></div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

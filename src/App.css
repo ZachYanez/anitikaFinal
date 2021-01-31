@@ -3,9 +3,14 @@
 }
 
 .content-area{
-  height: 100%;
+  min-height: 280px;
   color: black !important;
 }
+
+.extra-content{
+  min-height: 125px;
+}
+
 
 .welcome {
   color:white;

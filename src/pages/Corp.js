@@ -41,6 +41,8 @@ export default function Corporate() {
       <div className="content-area" >
         <CorpPics/>
       </div>
+      <div className="content-area"></div>
+      <div className="extra-content"></div>
      
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
