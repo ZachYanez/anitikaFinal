@@ -3,7 +3,7 @@
 }
 
 .content-area{
-  min-height: 500px;
+  height: 100%;
   color: black !important;
 }
 
@@ -40,5 +40,6 @@
 }
 
 .background{
+  height: 100%;
   background-color: black;
 }
