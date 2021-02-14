@@ -65,19 +65,21 @@ export default function Know() {
       <div className="content-area background">
           <br/>
         <div className="textColorWhite ">
-          I am Abyon Ausar, a model and actor from Jacksonville, FL. I am a multifaceted experiential marketing specialist. My
+        Abyon Ausar, a model and actor from Jacksonville, FL. is a multifaceted experiential marketing specialist. His
           focus is on opportunities in brand management, entertainment, social media marketing, and hosting.
           <div/>
           <br />
-          <div>I signed with my first agency in the summer of 2018, and started working professionally in 2019. Since entering
-          the business I’ve been involved in a variety of commercials, fashion shows, social media campaigns, influencer
-          campaigns, print ads, skits, and independent films. I’m currently represented for acting and modeling throughout TX, GA,
+          <div>Abyon signed with his first agency in the summer of 2018, and started working professionally in 2019. Since entering
+          the business he's been involved in a variety of commercials, fashion shows, social media campaigns, influencer
+          campaigns, print ads, skits, and independent films. He currently represented for acting and modeling throughout TX, GA,
           and NY.
           </div>
         </div>
 
         <KnowPics />
       </div>
+      <div className="textColorWhite"> Abyon big on character, connection, and experience. His legacy will be in the people he leaves behind. It’s not about what he leaves for himself, it’s what he leaves for others.
+Abyon wants to be remembered for the positive impact he has on those that are close to him. Abyon will be remembered for using his resilience and resourcefulness to defy the odds to better himself and those around him.</div>
       <div className="extra-content"></div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
