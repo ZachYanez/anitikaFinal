@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Home from './pages/Home'
-import Corp from './pages/Corp'
-import Fashion from './pages/Fashion'
+import Home from './pages/Home';
+import Corp from './pages/Corp';
+import Fashion from './pages/Fashion';
 import Fitness from './pages/Fitness';
-import Headshots from './pages/Headshots'
-import Published from './pages/Published'
-import Videos from './pages/Videos'
-import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+import Headshots from './pages/Headshots';
+import Published from './pages/Published';
+import Modeling from './pages/Modeling';
+import Videos from './pages/Videos';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
@@ -37,6 +38,10 @@ function App() {
         <Route exact path="/published" component={Published}>
             <Published/>
         </Route>
+        <Route exact path="/modeling" component={Modeling}>
+            <Modeling/>
+        </Route>
+        
       </Switch>
     </Router>
       

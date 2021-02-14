@@ -23,15 +23,12 @@ export default function Home() {
               <NavDropdown.Item target="_blank" href="https://www.imdb.com/name/nm11718272/">IMDB</NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">Acclaim Talent</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Corp">Corporate</Nav.Link>
-            <Nav.Link href="#Fashion">Fashion</Nav.Link>
-            <Nav.Link href="#Fitness">Fitness Modeling</Nav.Link>
+            <Nav.Link href="#Modeling">Modeling</Nav.Link>
             <Nav.Link className="staticLink" href="#Videos">Videos</Nav.Link>
-            <Nav.Link href="#Headshots">Headshots</Nav.Link>
             <Nav.Link href="#Published">Published Print Content</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="mailto:abyon09@gmail.com">Email</Nav.Link>
+            <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -79,7 +76,7 @@ export default function Home() {
             <Nav.Link href="#/">Home</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="mailto:abyon09@gmail.com">Email</Nav.Link>
+            <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

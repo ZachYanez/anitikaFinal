@@ -2,17 +2,23 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Published from "../components/cards/pubcard";
+import Image from "react-bootstrap/Image";
+import Headshots from "../components/carousels/headshotPics";
+import CorpPics from "../components/carousels/corpPics";
+import FashionPics from "../components/carousels/fashionPics";
+import FitnessPics from "../components/carousels/fitnessPics";
 
-export default function PubContent() {
+export default function Modeling() {
   return (
     <div className="background">
       <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="dark">
-        <Navbar.Brand href="#/">Abyon Ausar</Navbar.Brand>
+        <Navbar.Brand>Abyon Ausar</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#/">Home</Nav.Link>
+            <Nav.Link href="#/">
+              Home
+            </Nav.Link>
             <NavDropdown title="Resumes" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
@@ -38,19 +44,23 @@ export default function PubContent() {
                 Acclaim Talent
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Modeling">Modeling</Nav.Link>
+            <Nav.Link className="staticLink" href="#modeling">Modeling</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
-            <Nav.Link className="staticLink" href="#Published">
-              Published Print Content
-            </Nav.Link>
+            <Nav.Link href="#Published">Published Print Content</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <div className="image-container content-area w-50 mb-3 mt-3">
-        <Published />
+      <div className="content-area background">
+        <Headshots />
+        <br />
+        <CorpPics />
+        <br />
+        <FashionPics />
+        <br />
+        <FitnessPics />
       </div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
