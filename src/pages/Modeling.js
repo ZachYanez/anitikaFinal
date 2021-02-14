@@ -44,6 +44,7 @@ export default function Modeling() {
                 Acclaim Talent
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
             <Nav.Link className="staticLink" href="#modeling">Modeling</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
             <Nav.Link href="#Published">Features</Nav.Link>
