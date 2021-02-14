@@ -18,7 +18,11 @@ export default function pubcard() {
   </Card.Body>
 </Card>
 
-
+<div className="mt-5 mb-5">
+      <iframe  src="https://www.youtube.com/embed/0EAvO4hLVow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <br/>
+  
 <br/>
 
 <Card>
@@ -33,6 +37,10 @@ export default function pubcard() {
   </Card.Body>
 </Card>
 
+<div className="mt-5 mb-5">
+      <iframe src="https://www.youtube.com/embed/BYlwpB0VTsY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
 <br/>
 
 <Card>
@@ -46,11 +54,6 @@ export default function pubcard() {
     <Button target="_blank" href="https://screenrant.com/fear-walking-dead-season-6-white-mask-character/" variant="dark">See this on Screen Rant</Button>
   </Card.Body>
 </Card>
-
-
-
-
-
 
         </div>
     )
