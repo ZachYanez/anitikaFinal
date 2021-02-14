@@ -41,7 +41,7 @@ export default function PubContent() {
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
             <Nav.Link className="staticLink" href="#Published">
-              Published Print Content
+              Features
             </Nav.Link>
           </Nav>
           <Nav>

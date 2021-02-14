@@ -29,7 +29,7 @@ export default function Home() {
             </NavDropdown>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
-            <Nav.Link href="#Published">Published Print Content</Nav.Link> 
+            <Nav.Link href="#Published">Features</Nav.Link> 
           </Nav>
           <Nav>
             <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
