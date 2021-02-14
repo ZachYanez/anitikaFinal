@@ -16,7 +16,7 @@ export default function Know() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link className="staticLink" href="#">
+            <Nav.Link className="staticLink" href="#/">
               Home
             </Nav.Link>
             <NavDropdown title="Resumes" id="collasible-nav-dropdown">
