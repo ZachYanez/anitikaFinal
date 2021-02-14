@@ -38,6 +38,7 @@ export default function PubContent() {
                 Acclaim Talent
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
             <Nav.Link className="staticLink" href="#Published">

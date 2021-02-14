@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/Home';
+import Know from './pages/Know'
 import Corp from './pages/Corp';
 import Fashion from './pages/Fashion';
 import Fitness from './pages/Fitness';
@@ -20,21 +21,24 @@ function App() {
         <Route exact path="/" component={Home}>
             <Home />
         </Route>
-        <Route exact path="/corp" component={Corp}>
+        <Route exact path="/know" component={Know}>
+            <Know />
+        </Route>
+        {/* <Route exact path="/corp" component={Corp}>
             <Corp />
-        </Route>
-        <Route exact path="/fashion" component={Fashion}>
+        </Route> */}
+        {/* <Route exact path="/fashion" component={Fashion}>
             <Fashion />
-        </Route>
-        <Route exact path="/fitness" component={Fitness}>
+        </Route> */}
+        {/* <Route exact path="/fitness" component={Fitness}>
             <Fitness />
-        </Route>
-        <Route exact path="/videos" component={Videos}>
+        </Route> */}
+        {/* <Route exact path="/videos" component={Videos}>
             <Videos />
-        </Route>
-        <Route exact path="/headshots" component={Headshots}>
+        </Route> */}
+        {/* <Route exact path="/headshots" component={Headshots}>
             <Headshots/>
-        </Route>
+        </Route> */}
         <Route exact path="/published" component={Published}>
             <Published/>
         </Route>

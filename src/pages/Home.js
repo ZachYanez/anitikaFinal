@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image'
-import Abyon from '../assets/fashion/Abyon4.jpg'
+import Abyon from '../assets/fashion/Abyon0.jpg'
 
 export default function Home() {
     return (
@@ -27,6 +27,7 @@ export default function Home() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">Slamm Management</NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">ANTHM NY</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
             <Nav.Link href="#Published">Features</Nav.Link> 
