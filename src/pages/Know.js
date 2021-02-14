@@ -6,9 +6,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Know1 from "../assets/know/Amazon.PNG";
 import Know2 from "../assets/know/Dynamax.PNG";
 import Know3 from "../assets/know/Fogo.PNG";
-import Know4 from "../assets/know/IMG_3869.PNG";
+import Know5 from "../assets/headshots/headshot5.jpg";
 
-export default function Know() {
+export default function KnowPage() {
   return (
     <div className="background">
       <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="dark">
@@ -81,14 +81,14 @@ export default function Know() {
         </div>
 
         <div>
-          <img className="w-50" src={Know4} alt="slide" />
+          <img className="w-50" src={Know5} alt="slide" />
           <br/>
           <img className="w-50 mt-3" src={Know3} alt="slide" />
         </div>
       </div>
       <br/>
       <div className="textColorWhite ml-5 mr-5 mb-5">
-        Abyon big on character, connection, and experience. His legacy will be in the people he leaves behind. It’s not about what
+        Abyon is big on character, connection, and experience. His legacy will be in the people he leaves behind. It’s not about what
         he leaves for himself, it’s what he leaves for others. Abyon wants to be remembered for the positive impact he has on
         those that are close to him. Abyon will be remembered for using his resilience and resourcefulness to defy the odds to
         better himself and those around him.
