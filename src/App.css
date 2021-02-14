@@ -11,10 +11,14 @@
   min-height: 125px;
 }
 
+.bio{
+  text-align: center;
+}
 
 .welcome {
   color:white;
 }
+
 
 .staticLink{
   color:white !important;
