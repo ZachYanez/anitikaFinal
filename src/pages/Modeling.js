@@ -44,7 +44,7 @@ export default function Modeling() {
                 ANTHM NY
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Modeling">Modeling</Nav.Link>
+            <Nav.Link className="staticLink" href="#Modeling">Modeling</Nav.Link>
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
@@ -53,7 +53,7 @@ export default function Modeling() {
                 Resume
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="staticLink" href="#Published">
+            <Nav.Link href="#Published">
               Features
             </Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}

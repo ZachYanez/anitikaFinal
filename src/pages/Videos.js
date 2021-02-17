@@ -48,7 +48,7 @@ export default function Home() {
                 Resume
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="staticLink" href="#Published">
+            <Nav.Link href="#Published">
               Features
             </Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}

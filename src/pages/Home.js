@@ -13,7 +13,7 @@ export default function Home() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#/">Home</Nav.Link>
+            <Nav.Link className="staticLink" href="#/">Home</Nav.Link>
             <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
             <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://www.imdb.com/name/nm11718272/">
@@ -50,7 +50,7 @@ export default function Home() {
                 Resume
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="staticLink" href="#Published">
+            <Nav.Link href="#Published">
               Features
             </Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
