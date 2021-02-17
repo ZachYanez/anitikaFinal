@@ -12,21 +12,12 @@ export default function KnowPage() {
   return (
     <div className="background">
       <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="dark">
-        <Navbar.Brand>Abyon Ausar</Navbar.Brand>
+        <Navbar.Brand href="#/">Abyon Ausar</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link className="staticLink" href="#/">
-              Home
-            </Nav.Link>
-            <NavDropdown title="Resumes" id="collasible-nav-dropdown">
-              <NavDropdown.Item
-                target="_blank"
-                href="https://docs.google.com/document/d/1R3vjehY55V9Kma0rHOP_HlB2u69No3oDtBN66UQ9VdA/edit"
-              >
-                Actor Resume
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#/">Home</Nav.Link>
+            <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
             <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://www.imdb.com/name/nm11718272/">
                 IMDB
@@ -53,12 +44,19 @@ export default function KnowPage() {
                 ANTHM NY
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="staticLink" href="#Know">
-              Get To Know Abyon
-            </Nav.Link>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
+            <NavDropdown title="Resume" id="collasible-nav-dropdown">
+              <NavDropdown.Item
+                target="_blank"
+                href="https://docs.google.com/document/d/1R3vjehY55V9Kma0rHOP_HlB2u69No3oDtBN66UQ9VdA/edit"
+              >
+                Resume
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link className="staticLink" href="#Published">
+              Features
+            </Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
-            <Nav.Link href="#Published">Features</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
@@ -71,7 +69,7 @@ export default function KnowPage() {
           Abyon Ausar, a model and actor from Jacksonville, FL. is a multifaceted experiential marketing specialist. His focus is
           on opportunities in brand management, entertainment, social media marketing, and hosting.
           <div />
-          <br/>
+          <br />
           <div className="mb-5">
             Abyon signed with his first agency in the summer of 2018, and started working professionally in 2019. Since entering
             the business he's been involved in a variety of commercials, fashion shows, social media campaigns, influencer
@@ -82,14 +80,14 @@ export default function KnowPage() {
 
         <div>
           <img className="w-50" src={Know5} alt="slide" />
-          <br/>
+          <br />
           <img className="w-50 mt-3" src={Know3} alt="slide" />
         </div>
       </div>
-      <br/>
+      <br />
       <div className="textColorWhite ml-5 mr-5 mb-5">
-        Abyon is big on character, connection, and experience. His legacy will be in the people he leaves behind. It’s not about what
-        he leaves for himself, it’s what he leaves for others. Abyon wants to be remembered for the positive impact he has on
+        Abyon is big on character, connection, and experience. His legacy will be in the people he leaves behind. It’s not about
+        what he leaves for himself, it’s what he leaves for others. Abyon wants to be remembered for the positive impact he has on
         those that are close to him. Abyon will be remembered for using his resilience and resourcefulness to defy the odds to
         better himself and those around him.
       </div>

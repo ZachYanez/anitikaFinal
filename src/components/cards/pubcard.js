@@ -17,10 +17,6 @@ export default function pubcard() {
     <Button target="_blank" href="https://medium.com/@antisocialmarketing/abyon-ausar-mcinnis-marketing-specialist-brand-ambassador-emerging-actor-35611ac83b59" variant="dark">Read on Medium</Button>
   </Card.Body>
 </Card>
-
-<div className="mt-5 mb-5">
-      <iframe  src="https://www.youtube.com/embed/0EAvO4hLVow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
       <br/>
   
 <br/>
@@ -37,9 +33,7 @@ export default function pubcard() {
   </Card.Body>
 </Card>
 
-<div className="mt-5 mb-5">
-      <iframe src="https://www.youtube.com/embed/BYlwpB0VTsY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+
 
 <br/>
 

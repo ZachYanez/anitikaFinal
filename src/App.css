@@ -7,6 +7,14 @@
   color: black !important;
 }
 
+.video{
+  justify-content: center;
+}
+
+.divider{
+  color: white !important;
+}
+
 .extra-content{
   min-height: 125px;
 }
@@ -18,7 +26,6 @@
 .welcome {
   color:white;
 }
-
 
 .staticLink{
   color:white !important;

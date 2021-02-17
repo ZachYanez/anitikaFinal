@@ -14,7 +14,7 @@ export default function Headshot() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#/">Home</Nav.Link>
-            <NavDropdown title="Resumes" id="collasible-nav-dropdown">
+            <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://docs.google.com/document/d/1R3vjehY55V9Kma0rHOP_HlB2u69No3oDtBN66UQ9VdA/edit">Actor Resume</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
