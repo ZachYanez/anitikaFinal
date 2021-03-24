@@ -36,11 +36,16 @@ export default function PubContent() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
                 Slamm Management
               </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://www.wallflowermanageent.com/boy_portfolio.pho?id=169">
+                Wallflower Management
+              </NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
                 ANTHM NY
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#Acting">Acting</Nav.Link>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
+            <Nav.Link href="#Voiceover">Voiceover</Nav.Link>
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"

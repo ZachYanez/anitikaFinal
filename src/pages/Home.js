@@ -13,7 +13,9 @@ export default function Home() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link className="staticLink" href="#/">Home</Nav.Link>
+            <Nav.Link className="staticLink" href="#/">
+              Home
+            </Nav.Link>
             <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
             <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://www.imdb.com/name/nm11718272/">
@@ -37,11 +39,16 @@ export default function Home() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
                 Slamm Management
               </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://www.wallflowermanageent.com/boy_portfolio.pho?id=169">
+                Wallflower Management
+              </NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
                 ANTHM NY
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#Acting">Acting</Nav.Link>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
+            <Nav.Link href="#Voiceover">Voiceover</Nav.Link>
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
@@ -50,9 +57,7 @@ export default function Home() {
                 Resume
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Published">
-              Features
-            </Nav.Link>
+            <Nav.Link href="#Published">Features</Nav.Link>
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
           </Nav>
           <Nav>
@@ -60,7 +65,6 @@ export default function Home() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      >
       <div className="content-area">
         <Image className="w-75" src={Abyon} rounded />
       </div>
