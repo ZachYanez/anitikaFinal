@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import VOShort from "../assets/vo/VOShort.mp3";
+import VOLong from "../assets/vo/VOLong.mp3";
 
 export default function Voiceover() {
   return (
@@ -36,7 +37,7 @@ export default function Voiceover() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
                 Slamm Management
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.wallflowermanageent.com/boy_portfolio.php?id=169">
+              <NavDropdown.Item target="_blank" href="https://www.wallflowermanagement.com/boy_portfolio.php?id=169">
                 Wallflower Management
               </NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
@@ -70,6 +71,11 @@ export default function Voiceover() {
       <div className=" mt-5 content-area background">
         <audio controls>
           <source src={VOShort} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <br/>
+        <audio controls>
+          <source src={VOLong2} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </div>
