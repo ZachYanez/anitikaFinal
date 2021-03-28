@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import VOShort from "../assets/vo/VOShort.mp3";
-import VOLong from "../assets/vo/VOLong.mp3";
+// import VOLong from "../assets/vo/VOLong.mp3";
 
 export default function Voiceover() {
   return (
@@ -71,11 +71,6 @@ export default function Voiceover() {
       <div className=" mt-5 content-area background">
         <audio controls>
           <source src={VOShort} type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-        <br/>
-        <audio controls>
-          <source src={VOLong2} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </div>
