@@ -40,7 +40,7 @@ export default function Modeling() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
                 Slamm Management
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.wallflowermanagement.com/boy_portfolio.php?id=169">
+              <NavDropdown.Item target="_blank" href="http://www.wallflowermanagement.com/boy_portfolio.php?id=169">
                 Wallflower Management
               </NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
