@@ -37,13 +37,13 @@ export default function Modeling() {
               <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
                 Acclaim Talent
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
+              <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
                 Slamm Management
               </NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="http://www.wallflowermanagement.com/boy_portfolio.php?id=169">
                 Wallflower Management
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
+              <NavDropdown.Item target="_blank" href="http://www.anthm.agency/men/main/507-abyon-m/">
                 ANTHM NY
               </NavDropdown.Item>
             </NavDropdown>
@@ -71,6 +71,7 @@ export default function Modeling() {
         <br />
         <CorpPics />
         <br />
+        <FashionPics/>
         <br/>
         <FitnessPics />
       </div>

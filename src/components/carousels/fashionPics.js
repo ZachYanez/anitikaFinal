@@ -77,7 +77,7 @@ export default function fashion() {
 
       <br />
 
-      <Carousel className="image-container mt-3 w-50">
+      {/* <Carousel className="image-container mt-3 w-50">
         <Carousel.Item>
           <img className="d-block w-100" src={Abyon1} alt="First slide" />
           <Carousel.Caption>
@@ -177,7 +177,7 @@ export default function fashion() {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }

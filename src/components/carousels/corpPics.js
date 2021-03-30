@@ -24,13 +24,7 @@ export default function corp() {
             <h3></h3>
             <p></p>
           </Carousel.Caption>
-          <Carousel.Item>
-            <img className="d-block w-100" src={fashion1} alt="First slide" />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={corp2} alt="Third slide" />
@@ -40,13 +34,7 @@ export default function corp() {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-            <img className="d-block w-100" src={fashion2} alt="First slide" />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
         
         <Carousel.Item>
           <img className="d-block w-100" src={corp3} alt="Third slide" />
@@ -56,13 +44,7 @@ export default function corp() {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-            <img className="d-block w-100" src={fashion3} alt="First slide" />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
 
         <Carousel.Item>
           <img className="d-block w-100" src={corp4} alt="Third slide" />
@@ -72,13 +54,7 @@ export default function corp() {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-            <img className="d-block w-100" src={fashion4} alt="First slide" />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
 
         <Carousel.Item>
           <img className="d-block w-100" src={corp5} alt="Third slide" />
@@ -88,13 +64,7 @@ export default function corp() {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-            <img className="d-block w-100" src={fashion5} alt="First slide" />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
         <Carousel.Item>
           <img className="d-block w-100" src={corp6} alt="Third slide" />
 
@@ -104,13 +74,7 @@ export default function corp() {
           </Carousel.Caption>
           
         </Carousel.Item>
-        <Carousel.Item>
-            <img className="d-block w-100" src={fashion6} alt="First slide" />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
       </Carousel>
     </div>
   );
