@@ -93,6 +93,18 @@ export default function Acting() {
         <Headshots />
         <br/>
       </div>
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
+        <Navbar.Brand href="#/">A</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#/">Home</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }

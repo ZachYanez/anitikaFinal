@@ -70,20 +70,7 @@ export default function Home() {
         <Image className="w-75" src={Abyon} rounded />
       </div>
       <div className="content-area"></div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#/">A</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link className="staticLink" href="#/">
-              Home
-            </Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      
     </div>
   );
 }

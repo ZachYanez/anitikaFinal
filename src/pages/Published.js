@@ -96,7 +96,7 @@ export default function PubContent() {
           ></iframe>
         </div>
       </div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

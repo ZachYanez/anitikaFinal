@@ -102,7 +102,7 @@ export default function KnowPage() {
         <img className="w-50" src={Know1} alt="slide" />
       </div>
       <div className="extra-content"></div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
