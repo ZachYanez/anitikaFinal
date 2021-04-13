@@ -67,23 +67,21 @@ export default function Acting() {
         </Navbar.Collapse>
       </Navbar>
       <div className="content-area background">
+        <br />
         <div>
-        <iframe
-            className="mt-5"
-            src={reel2}
-            height="100%"
-            width="300"
+          <iframe
+            src="https://www.youtube.com/embed/CvmA5huAPhY"
+            title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
 
           <br />
+          <br />
           <iframe
-            className="mt-5"
-            src={reel1}
-            height="100%"
-            width="300"
+            src="https://www.youtube.com/embed/cz8r4r7XZ8M"
+            title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -91,7 +89,7 @@ export default function Acting() {
         </div>
 
         <Headshots />
-        <br/>
+        <br />
       </div>
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>

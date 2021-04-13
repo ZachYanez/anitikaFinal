@@ -45,7 +45,6 @@ export default function Home() {
               <NavDropdown.Item target="_blank" href="http://www.anthm.agency/men/main/507-abyon-m/">
                 ANTHM NY
               </NavDropdown.Item>
-            
             </NavDropdown>
             <Nav.Link href="#Acting">Acting</Nav.Link>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
@@ -70,7 +69,6 @@ export default function Home() {
         <Image className="w-75" src={Abyon} rounded />
       </div>
       <div className="content-area"></div>
-      
     </div>
   );
 }

@@ -48,7 +48,9 @@ export default function Modeling() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#Acting">Acting</Nav.Link>
-            <Nav.Link className="staticLink" href="#Modeling">Modeling</Nav.Link>
+            <Nav.Link className="staticLink" href="#Modeling">
+              Modeling
+            </Nav.Link>
             <Nav.Link href="#Voiceover">Voiceover</Nav.Link>
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
@@ -71,8 +73,8 @@ export default function Modeling() {
         <br />
         <CorpPics />
         <br />
-        <FashionPics/>
-        <br/>
+        <FashionPics />
+        <br />
         <FitnessPics />
       </div>
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">

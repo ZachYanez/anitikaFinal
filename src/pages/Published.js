@@ -69,32 +69,31 @@ export default function PubContent() {
         <div className="border-bottom border-light">
           <div className="textColorWhite mt-5">Videos</div>
         </div>
-        <div className="mt-5 mb-5 video">
-          <iframe
-            src="https://www.youtube.com/embed/0EAvO4hLVow"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+      </div>
+      <div className="mt-5 mb-5 video">
+        <iframe
+          src="https://www.youtube.com/embed/0EAvO4hLVow"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div className=" mt-5 mb-5 video">
+        <iframe
+          src="https://www.youtube.com/embed/BYlwpB0VTsY"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
 
-        <div className=" mt-5 mb-5 video">
-          <iframe
-            src="https://www.youtube.com/embed/BYlwpB0VTsY"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-
-        <div className="mt-5 mb-5 video">
-          <iframe
-            src="https://www.youtube.com/embed/KkovCctEZck"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+      <div className="mt-5 mb-5 video">
+        <iframe
+          src="https://www.youtube.com/embed/KkovCctEZck"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
         <Navbar.Brand href="#/">A</Navbar.Brand>
