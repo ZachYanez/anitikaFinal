@@ -5,7 +5,7 @@
   "homepage": "https://abyonausar.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZachYanez/abyonausar/"
+    "url": "https://github.com/ZachYanez/anitikaknight/"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
