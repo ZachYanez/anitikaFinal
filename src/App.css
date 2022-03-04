@@ -2,60 +2,111 @@
   text-align: center;
 }
 
-.content-area{
+.content-area {
   min-height: 280px;
-  color: black !important;
-}
-
-.video{
-  justify-content: center;
-}
-
-.divider{
   color: white !important;
 }
 
-.extra-content{
+.video {
+  justify-content: center;
+}
+
+.divider {
+  color: black !important;
+}
+
+.extra-content {
   min-height: 125px;
 }
 
-.bio{
+.bio {
   text-align: center;
 }
 
 .welcome {
-  color:white;
+  color: black;
 }
 
-.staticLink{
-  color:white !important;
+.staticLink {
+  color: black !important;
   text-decoration: underline !important;
 }
 
-.textColorWhite{
-  color: white !important;
+.textColorWhite {
+  color: black !important;
 }
 
-.image-container{
-  margin-left: 25%
-} 
+.image-container {
+  margin-left: 25%;
+}
 
-.homebackground{
+.homebackground {
   background-image: url(../src/assets/fashion/Abyon3.jpg);
 }
 
-.corpPics{
+.corpPics {
   margin: 5% 10% 5% 10%;
   width: 80%;
   align-items: center;
 }
 
-.Header{
+.Header {
   font-size: 36pt;
   /* background-color: transparent !important; */
 }
 
-.background{
+.background {
   height: 100%;
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
   background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.shadow {
+  box-shadow: 10px 10px 10px black;
+}
+
+.doubleShadow {
+  box-shadow: 10px 10px 10px black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+.welcome:hover {
+  color: grey;
+}
+.welcome {
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .welcome {
+    animation: welcome-fade infinite 3s alternate;
+  }
+}
+
+@keyframes welcome-fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
 }

@@ -6,40 +6,31 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 export default function Home() {
   return (
     <div className="background">
-      <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="dark">
-        <Navbar.Brand href="#/">Abyon Ausar</Navbar.Brand>
+      <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="light">
+        <Navbar.Brand href="#/">Links</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#/">Home</Nav.Link>
-            <Nav.Link href="#Know">Get To Know Abyon</Nav.Link>
-            <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
-              <NavDropdown.Item target="_blank" href="https://www.imdb.com/name/nm11718272/">
-                IMDB
+            <Nav.Link href="#Know">Bio</Nav.Link>
+            <NavDropdown title="My Links" id="collasible-nav-dropdown">
+              <NavDropdown.Item target="_blank" href="https://www.tagtalentagency.com/Talent/Anitaka-Knight">
+                TAG
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.instagram.com/oswiftt/">
-                Instagram
+              <NavDropdown.Item target="_blank" href="http://www.brownagency.co/commercial/women/1494-anitaka-knight/">
+                Brown Agency
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.facebook.com/oSwiftt/">
-                Facebook
+              <NavDropdown.Item target="_blank" href="https://www.instagram.com/anitakaaaa/">
+                Instagram Main
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.youtube.com/user/itcost2beaboss">
-                Youtube
+              <NavDropdown.Item target="_blank" href="https://www.instagram.com/anitakatheactress/">
+                Instagram Acress Account
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.linkedin.com/in/abyonmcinnis/">
+              <NavDropdown.Item target="_blank" href="https://www.linkedin.com/in/anitakaknight/">
                 LinkedIn
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">
-                Acclaim Talent
-              </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.slammmanagement.com/talent/abyon-mcinnis-64862">
-                Slamm Management
-              </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="http://www.wallflowermanagement.com/boy_portfolio.php?id=169">
-                Wallflower Management
-              </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="http://www.anthm.agency/men/main/507-abyon-m/">
-                ANTHM NY
+              <NavDropdown.Item target="_blank" href="facebook.com/anitaka.knight">
+                Facebook
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#Modeling">Modeling</Nav.Link>
@@ -55,7 +46,7 @@ export default function Home() {
             {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
           </Nav>
           <Nav>
-            <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
+            <Nav.Link href="mailto:nitaka828@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -123,7 +114,7 @@ export default function Home() {
           ></iframe>
         </div>
       </div>
-      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
         <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -131,7 +122,7 @@ export default function Home() {
             <Nav.Link href="#/">Home</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="mailto:abyon.mcinnis@yahoo.com">Email</Nav.Link>
+            <Nav.Link href="mailto:nitaka828@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,47 +1,68 @@
-import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Headshots from '../components/carousels/headshotPics';
+import React from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Headshots from "../components/carousels/headshotPics";
+import reel1 from "../assets/reels/Reel1.mp4";
+import reel2 from "../assets/reels/Reel2.mp4";
 
-
-export default function Headshot() {
-    return (
-        <div className="background">
-             <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="dark">
-        <Navbar.Brand href="#/">Abyon Ausar</Navbar.Brand>
+export default function Acting() {
+  return (
+    <div className="background">
+      <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="light">
+        <Navbar.Brand href="#/">Anitika Knight</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#/">Home</Nav.Link>
+            <Nav.Link href="#Bio">Bio</Nav.Link>
+            <NavDropdown title="My Links" id="collasible-nav-dropdown">
+              <NavDropdown.Item target="_blank" href="https://www.tagtalentagency.com/Talent/Anitaka-Knight">
+                TAG
+              </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="http://www.brownagency.co/commercial/women/1494-anitaka-knight/">
+                Brown Agency
+              </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://www.instagram.com/anitakaaaa/">
+                Instagram Main
+              </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://www.instagram.com/anitakatheactress/">
+                Instagram Acress Account
+              </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://www.linkedin.com/in/anitakaknight/">
+                LinkedIn
+              </NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="facebook.com/anitaka.knight">
+                Facebook
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link className="staticLink" href="#Headshots">
+              Headshots
+            </Nav.Link>
+            <Nav.Link href="#Printwork">Print work</Nav.Link>
+            <Nav.Link href="#Kayden">Kayden</Nav.Link>
+            <Nav.Link href="#Lifestyle">Lifestyle</Nav.Link>
+
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
-              <NavDropdown.Item target="_blank" href="https://docs.google.com/document/d/1R3vjehY55V9Kma0rHOP_HlB2u69No3oDtBN66UQ9VdA/edit">Actor Resume</NavDropdown.Item>
+              <NavDropdown.Item
+                target="_blank"
+                href="https://drive.google.com/file/d/1zdTajt6mSygt9JxEtwUVGGzRTosJR7Uv/view?usp=sharing"
+              >
+                Acting Resume
+              </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
-              <NavDropdown.Item target="_blank" href="https://www.linkedin.com/in/abyonmcinnis/">LinkedIn</NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.facebook.com/oSwiftt/">Facebook</NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.instagram.com/oswiftt/">Instagram</NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.imdb.com/name/nm11718272/">IMDB</NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://www.acclaimtalent.com/profiles/abyon-ausar/">Acclaim Talent</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#Corp">Corporate</Nav.Link>
-            <Nav.Link href="#Fashion">Fashion</Nav.Link>
-            <Nav.Link href="#Fitness">Fitness Modeling</Nav.Link>
-            <Nav.Link href="#Videos">Videos</Nav.Link>
-            <Nav.Link className="staticLink" href="#Headshots">Headshots</Nav.Link>
-            <Nav.Link href="#Published">Published Print Content</Nav.Link>
+            {/* <Nav.Link href="#Videos">Videos</Nav.Link> */}
           </Nav>
           <Nav>
-            <Nav.Link href="mailto:abyon09@gmail.com">Email</Nav.Link>
+            <Nav.Link href="mailto:nitaka828@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <div className="content-area">
-        <Headshots/>
+
+      <div>
+        <Headshots />
       </div>
-      <div className="content-area"></div>
-      <div className="extra-content"></div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
         <Navbar.Brand href="#/">A</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -49,10 +70,10 @@ export default function Headshot() {
             <Nav.Link href="#/">Home</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="mailto:abyon09@gmail.com">Email</Nav.Link>
+            <Nav.Link href="mailto:nitaka828@yahoo.com">Email</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-        </div>
-    )
+    </div>
+  );
 }
