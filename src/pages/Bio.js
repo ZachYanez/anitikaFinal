@@ -3,9 +3,9 @@ import KnowPics from "../components/carousels/knowPics";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Know1 from "../assets/know/Amazon.PNG";
-import Know2 from "../assets/know/Dynamax.PNG";
-import Know3 from "../assets/know/Fogo.PNG";
+// import Know1 from "../assets/know/Amazon.PNG";
+// import Know2 from "../assets/know/Dynamax.PNG";
+// import Know3 from "../assets/know/Fogo.PNG";
 import Know5 from "../assets/headshots/headshot5.jpg";
 
 export default function Bio() {
