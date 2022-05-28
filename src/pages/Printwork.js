@@ -11,7 +11,7 @@ export default function Acting() {
   return (
     <div className="background">
       <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="light">
-        <Navbar.Brand href="#/">Anitika Knight</Navbar.Brand>
+        <Navbar.Brand href="#/">Anitaka Knight</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

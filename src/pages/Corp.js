@@ -10,7 +10,7 @@ export default function Corporate() {
       <div>
         <div className="background">
           <Navbar className="header" collapseOnSelect expand="lg" bg="transparent" variant="light">
-            <Navbar.Brand href="#/">Anitika</Navbar.Brand>
+            <Navbar.Brand href="#/">Anitaka</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
