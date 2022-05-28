@@ -3,8 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Headshots from "../components/carousels/headshotPics";
-import reel1 from "../assets/reels/Reel1.mp4";
-import reel2 from "../assets/reels/Reel2.mp4";
 import PrintworkPics from "../components/carousels/printworkPics";
 import Wedding from "../assets/printwork/print1.jpg";
 import AtHomePics from "../components/carousels/atHomePics";
@@ -44,11 +42,12 @@ export default function Acting() {
             </Nav.Link>
             <Nav.Link href="#Kayden">Kayden</Nav.Link>
             <Nav.Link href="#Lifestyle">Lifestyle</Nav.Link>
+            <Nav.Link href="#Videos">Videos</Nav.Link>
 
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
-                href="https://drive.google.com/file/d/1zdTajt6mSygt9JxEtwUVGGzRTosJR7Uv/view?usp=sharing"
+                href="https://drive.google.com/file/d/16YpoI9VQ2tLJW3lAoBLLGbLVK6txCpHT/view?usp=sharing"
               >
                 Acting Resume
               </NavDropdown.Item>

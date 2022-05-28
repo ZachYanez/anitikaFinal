@@ -2,15 +2,11 @@ import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Bio from "./pages/Bio";
-// import Corp from "./pages/Corp";
-// import Fashion from "./pages/Fashion";
-// import Fitness from "./pages/Fitness";
-// import Nothing from "./pages/Nothing";
 import Lifestyle from "./pages/Lifestyle";
 import Headshots from "./pages/Headshots";
 import Kayden from "./pages/Kayden";
 import Printwork from "./pages/Printwork";
-// import Videos from "./pages/Videos";
+import Videos from "./pages/Videos";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -36,21 +32,9 @@ function App() {
           <Route exact path="/kayden" component={Kayden}>
             <Kayden />
           </Route>
-          {/* <Route exact path="/corp" component={Corp}>
-            <Corp />
-        </Route> */}
-          {/* <Route exact path="/fashion" component={Fashion}>
-            <Fashion />
-        </Route> */}
-          {/* <Route exact path="/fitness" component={Fitness}>
-            <Fitness />
-        </Route> */}
-          {/* <Route exact path="/videos" component={Videos}>
+          <Route exact path="/videos" component={Videos}>
             <Videos />
-        </Route> */}
-          {/* <Route exact path="/nothing" component={Nothing}>
-            <Nothing/>
-        </Route> */}
+          </Route>
         </Switch>
       </Router>
     </div>

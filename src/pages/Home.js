@@ -15,7 +15,7 @@ export default function Landing() {
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>Anitika Knight</p>
+        <p>Anitaka Knight</p>
         <Link className="welcome" to="/Bio">
           Welcome
         </Link>

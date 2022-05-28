@@ -43,10 +43,11 @@ export default function Bio() {
             <Nav.Link href="#printwork">Print work</Nav.Link>
             <Nav.Link href="#Kayden">Kayden</Nav.Link>
             <Nav.Link href="#Lifestyle">Lifestyle</Nav.Link>
+            <Nav.Link href="#Videos">Videos</Nav.Link>
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
-                href="https://drive.google.com/file/d/1zdTajt6mSygt9JxEtwUVGGzRTosJR7Uv/view?usp=sharing"
+                href="https://drive.google.com/file/d/16YpoI9VQ2tLJW3lAoBLLGbLVK6txCpHT/view?usp=sharing"
               >
                 Acting Resume
               </NavDropdown.Item>

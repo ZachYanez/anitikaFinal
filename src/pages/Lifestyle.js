@@ -2,7 +2,9 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Published from "../components/cards/pubcard";
+import Lifestyle1 from "../components/carousels/lifestyle1";
+import Lifestyle2 from "../components/carousels/lifestyle2";
+import Lifestyle3 from "../components/carousels/lifestyle3";
 
 export default function Lifestyle() {
   return (
@@ -39,10 +41,12 @@ export default function Lifestyle() {
             <Nav.Link className="staticLink" href="#Lifestyle">
               Lifestyle
             </Nav.Link>
+            <Nav.Link href="#Videos">Videos</Nav.Link>
+
             <NavDropdown title="Resume" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
-                href="https://drive.google.com/file/d/1zdTajt6mSygt9JxEtwUVGGzRTosJR7Uv/view?usp=sharing"
+                href="https://drive.google.com/file/d/16YpoI9VQ2tLJW3lAoBLLGbLVK6txCpHT/view?usp=sharing"
               >
                 Acting Resume
               </NavDropdown.Item>
@@ -55,7 +59,27 @@ export default function Lifestyle() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <div className="content-area"></div>
+      <div></div>
+      <br />
+      <br />
+      <br />
+
+      <div className="w-50 image-container">
+        <Lifestyle1 />
+      </div>
+      <br />
+      <br />
+      <br />
+      <div></div>
+      <div className="w-50 image-container">
+        <Lifestyle2 />
+      </div>
+      <br />
+      <br />
+      <br />
+      <div className="w-50 image-container">
+        <Lifestyle3 />
+      </div>
       <div className="content-area"></div>
 
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">

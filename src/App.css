@@ -4,7 +4,7 @@
 
 .content-area {
   min-height: 280px;
-  color: white !important;
+  background-color: #dbf3fa;
 }
 
 .video {
@@ -57,7 +57,7 @@
 
 .background {
   height: 100%;
-  background-color: white;
+  background-color: #dbf3fa;
 }
 
 .App {
@@ -83,6 +83,11 @@
   box-shadow: 10px 10px 10px black;
 }
 
+.video-area {
+  height: 250px;
+  width: 250px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -93,7 +98,7 @@
   color: grey;
 }
 .welcome {
-  color: white;
+  color: #dbf3fa;
 }
 
 @media (prefers-reduced-motion: no-preference) {
